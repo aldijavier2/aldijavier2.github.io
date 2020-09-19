@@ -13,8 +13,8 @@
     list-style: none;
     width: 25px;
     height: 25px;
-    background: rgba(255, 0, 0, 0.5);
-    opacity: 0.4;
+    background: url('gambar.JPG');
+    opacity: 1;
     animation: animate 20s linear infinite;
     bottom: -150px;
 }
@@ -24,6 +24,7 @@
     width: 80px;
     height: 80px;
     animation-delay: 0s;
+    opacity: 1;
 }
 
 .box-area li:nth-child(2){
@@ -32,6 +33,7 @@
     height: 30px;
     animation-delay: 1.5s;
     animation-duration: 10s;
+    opacity: 1;
 }
 
 .box-area li:nth-child(3){
@@ -64,11 +66,12 @@
 }
 
 @keyframes animate{
-    0%{
-        transform: translateY(0px) rotate(0deg);
-    }
+  0%{
+    transform: translateY(0px) rotate(0deg);
+}
 
-    100%{
-        transform: translateY(-1000px) rotate(360deg);
-    }
+100%{
+    transform: translateY(-1000px) rotate(360deg);
+}
+    
 }
