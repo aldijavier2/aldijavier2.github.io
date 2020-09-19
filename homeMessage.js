@@ -23,12 +23,12 @@ var i = 0;
 function typeWriter(){
     var today = new Date();
     
-    var message = "Selamat ";
+    var message = "Gud ";
 
-    var morningMessage = "Wisuda, "
-    var afternoonMessage = "Wisuda, "
-    var eveningMessage = "Wisuda, "
-    var nightMessage = "Wisuda, "
+    var morningMessage = "Morning, "
+    var afternoonMessage = "Afternoon, "
+    var eveningMessage = "Evening, "
+    var nightMessage = "Night, "
 
     var hour = today.getHours();
     
