@@ -44,7 +44,7 @@ function typeWriter(){
     else 
         message += morningMessage;
     
-    message += "Lintankkkk 💙";
+    message += "SHASA DICHA 💙";
     
     var speed = 100
     if (i < message.length){
